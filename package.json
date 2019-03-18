@@ -1,0 +1,21 @@
+{
+  "name": "onepageexpress",
+  "version": "1.0.0",
+  "description": "receiving POST from particle.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "flatted": "^2.0.0",
+    "http": "0.0.0",
+    "mongoose": "^5.4.19",
+    "validator": "^10.11.0"
+  }
+}
